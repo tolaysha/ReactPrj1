@@ -2,7 +2,13 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 const App = () => {
-	return <p>Всем привет, я компонент App</p>
+	
+	return (<React.Fragment> 
+				<p>Всем привет, я компонент App</p> 
+				<News/>
+			</React.Fragment>
+	)
+
 }
 const News = () => {
 	return <p>К сожалению, новостей нет</p>
@@ -45,4 +51,4 @@ class BigApp extends React.Component {
 // }
 
 //export default App;
-export default BigApp;
+export default App;
