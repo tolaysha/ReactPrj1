@@ -1,0 +1,2 @@
+statefull - class
+stateless - function
